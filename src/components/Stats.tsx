@@ -34,33 +34,33 @@ export default function Stats() {
   ];
 
   return (
-    <section className="w-full bg-white py-20">
-      <div className="max-w-7xl mx-auto px-6 text-center">
+    <section className="w-full bg-white py-12 sm:py-16 md:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-12">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-8 sm:mb-10 md:mb-12">
           Why Australians Trust{" "}
           <span className="text-orange-500">Find a Mover</span>
         </h2>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 p-6 flex flex-col items-center text-center border border-gray-100"
+              className="group bg-white rounded-xl sm:rounded-2xl shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300 p-4 sm:p-6 flex flex-col items-center text-center border border-gray-100"
             >
               {/* Icon */}
-              <div className="flex justify-center items-center w-14 h-14 rounded-full bg-orange-100 mb-4 group-hover:bg-orange-500 transition-colors duration-300">
-                <stat.icon className="w-7 h-7 text-orange-600 group-hover:text-white transition-colors duration-300" />
+              <div className="flex justify-center items-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-orange-100 mb-3 sm:mb-4 group-hover:bg-orange-500 transition-colors duration-300">
+                <stat.icon className="w-6 h-6 sm:w-7 sm:h-7 text-orange-600 group-hover:text-white transition-colors duration-300" />
               </div>
 
               {/* Number */}
-              <h3 className="text-3xl font-bold text-blue-900 mb-2">
+              <h3 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-2">
                 {stat.number}
               </h3>
 
               {/* Description */}
-              <p className="text-blue-800 text-sm leading-relaxed">
+              <p className="text-blue-800 text-xs sm:text-sm leading-relaxed">
                 {stat.description}
               </p>
             </div>

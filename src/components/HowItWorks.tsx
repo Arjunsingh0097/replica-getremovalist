@@ -32,21 +32,21 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-12 sm:py-16 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4">
             How it works
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Discover how Find a Mover makes relocating simple, transparent, and
             stress-free.
           </p>
         </div>
 
         {/* Main Container */}
-        <div className="bg-orange-50 rounded-3xl p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 shadow-sm">
+        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 shadow-sm">
           {/* Left Side - Image */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative rounded-2xl overflow-hidden w-full max-w-md shadow-md">
@@ -66,25 +66,25 @@ export default function HowItWorks() {
               {steps.map((step, index) => (
                 <div
                   key={index}
-                  className="flex items-start space-x-6 mb-10 text-left"
+                  className="flex items-start space-x-4 sm:space-x-6 mb-6 sm:mb-8 md:mb-10 text-left"
                 >
                   {/* Step Number */}
                   <div className="flex flex-col items-center relative">
-                    <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-md">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg shadow-md">
                       {step.number}
                     </div>
                     {/* Connecting Line */}
                     {index < steps.length - 1 && (
-                      <div className="w-px h-10 bg-gray-300 mt-1"></div>
+                      <div className="w-px h-6 sm:h-8 md:h-10 bg-gray-300 mt-1"></div>
                     )}
                   </div>
 
                   {/* Step Content */}
                   <div>
-                    <h3 className="text-lg md:text-xl font-bold text-blue-900 mb-2">
+                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-blue-900 mb-1 sm:mb-2">
                       {step.title}
                     </h3>
-                    <p className="text-gray-700 leading-relaxed text-base">
+                    <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
                       {step.description}
                     </p>
                   </div>

@@ -33,14 +33,14 @@ export default function WhyUseFindAMover() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-12 sm:py-16 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4">
             Why use <span className="text-orange-500">Find a Mover?</span>
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Find a Mover simplifies relocation by connecting you with verified,
             professional removalists. Compare quotes, read reviews, and move
             with confidence — all in one place.
@@ -48,23 +48,23 @@ export default function WhyUseFindAMover() {
         </div>
 
         {/* Main Container */}
-        <div className="bg-orange-50 rounded-3xl p-10 md:p-14 flex flex-col lg:flex-row items-center gap-12 shadow-sm">
+        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-12 shadow-sm">
           {/* Left Side - Text & Benefits */}
           <div className="w-full lg:w-1/2">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8">
               {benefits.map((benefit, index) => (
                 <div
                   key={index}
-                  className="flex items-start space-x-4 hover:-translate-y-1 transition-transform duration-300"
+                  className="flex items-start space-x-3 sm:space-x-4 hover:-translate-y-1 transition-transform duration-300"
                 >
-                  <div className="flex-shrink-0 p-3 bg-white rounded-full shadow-md">
+                  <div className="flex-shrink-0 p-2 sm:p-3 bg-white rounded-full shadow-md">
                     {benefit.icon}
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-blue-900 mb-1">
+                    <h3 className="text-base sm:text-lg font-bold text-blue-900 mb-1">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-700 text-sm leading-relaxed">
+                    <p className="text-gray-700 text-xs sm:text-sm leading-relaxed">
                       {benefit.description}
                     </p>
                   </div>
@@ -85,27 +85,27 @@ export default function WhyUseFindAMover() {
               />
 
               {/* Floating Icons */}
-              <div className="absolute -left-6 top-10">
-                <div className="bg-orange-500 rounded-full p-3 shadow-md animate-bounce-slow">
-                  <Clock className="w-6 h-6 text-white" />
+              <div className="absolute -left-4 sm:-left-6 top-8 sm:top-10">
+                <div className="bg-orange-500 rounded-full p-2 sm:p-3 shadow-md animate-bounce-slow">
+                  <Clock className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
 
-              <div className="absolute -right-6 top-16">
-                <div className="bg-orange-500 rounded-full p-3 shadow-md animate-bounce-slow delay-100">
-                  <DollarSign className="w-6 h-6 text-white" />
+              <div className="absolute -right-4 sm:-right-6 top-12 sm:top-16">
+                <div className="bg-orange-500 rounded-full p-2 sm:p-3 shadow-md animate-bounce-slow delay-100">
+                  <DollarSign className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
 
-              <div className="absolute -left-5 bottom-24">
-                <div className="bg-orange-500 rounded-full p-3 shadow-md animate-bounce-slow delay-200">
-                  <Star className="w-6 h-6 text-white" />
+              <div className="absolute -left-3 sm:-left-5 bottom-20 sm:bottom-24">
+                <div className="bg-orange-500 rounded-full p-2 sm:p-3 shadow-md animate-bounce-slow delay-200">
+                  <Star className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
 
-              <div className="absolute -right-5 bottom-8">
-                <div className="bg-orange-500 rounded-full p-3 shadow-md animate-bounce-slow delay-300">
-                  <ThumbsUp className="w-6 h-6 text-white" />
+              <div className="absolute -right-3 sm:-right-5 bottom-6 sm:bottom-8">
+                <div className="bg-orange-500 rounded-full p-2 sm:p-3 shadow-md animate-bounce-slow delay-300">
+                  <ThumbsUp className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
             </div>

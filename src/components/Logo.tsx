@@ -12,8 +12,8 @@ interface LogoProps {
 
 export default function Logo({ className = "", size = "md", href = "/" }: LogoProps) {
   const imageSizes = {
-    sm: { width: 120, height: 120 },
-    md: { width: 120, height: 120 },
+    sm: { width: 80, height: 80 },
+    md: { width: 100, height: 100 },
     lg: { width: 120, height: 120 }
   };
 
@@ -25,7 +25,7 @@ export default function Logo({ className = "", size = "md", href = "/" }: LogoPr
         alt="getremovalist logo"
         width={imageSizes[size].width}
         height={imageSizes[size].height}
-        className="object-contain"
+        className="object-contain w-auto h-8 sm:h-10 md:h-12 lg:h-14"
       />
     </div>
   );

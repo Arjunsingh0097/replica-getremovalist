@@ -87,13 +87,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white shadow-md border-b border-gray-200 z-50 px-6 py-4">
+    <nav className="fixed top-0 left-0 right-0 bg-white shadow-md border-b border-gray-200 z-50 px-4 sm:px-6 py-3 sm:py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Logo size="md" href="/" />
 
         {/* Navigation Links */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
           {/* Move Types Dropdown */}
           <div className="relative" ref={dropdownRef}>
             <button
@@ -260,7 +260,7 @@ export default function Navbar() {
         {/* Get Quotes Button */}
         <Link
           href="/job/new"
-          className="bg-red-50 border border-red-300 text-red-600 px-6 py-2 rounded-lg font-medium hover:bg-red-100 transition-colors duration-200 flex items-center"
+          className="hidden sm:flex bg-red-50 border border-red-300 text-red-600 px-4 lg:px-6 py-2 rounded-lg font-medium hover:bg-red-100 transition-colors duration-200 items-center text-sm lg:text-base"
         >
           Get Quotes
           <svg

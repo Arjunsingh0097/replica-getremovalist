@@ -58,11 +58,11 @@ export default function FAQ() {
   };
 
   return (
-    <section className="py-16 bg-[#282C40]">
+    <section className="py-12 sm:py-16 bg-[#282C40]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4">
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4">
             Frequently asked questions
           </h2>
         </div>
@@ -73,13 +73,13 @@ export default function FAQ() {
             <div key={index}>
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left py-6 flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
+                className="w-full text-left py-4 sm:py-6 flex items-center justify-between hover:bg-white/5 transition-colors duration-200"
               >
-                <span className="text-white text-lg font-medium pr-4">
+                <span className="text-white text-base sm:text-lg font-medium pr-3 sm:pr-4">
                   {faq.question}
                 </span>
                 <ChevronDown 
-                  className={`w-5 h-5 text-[#E53E3E] transition-transform duration-200 ${
+                  className={`w-4 h-4 sm:w-5 sm:h-5 text-[#E53E3E] transition-transform duration-200 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`} 
                 />
@@ -87,8 +87,8 @@ export default function FAQ() {
               
               {/* Answer */}
               {openIndex === index && (
-                <div className="pb-6">
-                  <p className="text-gray-300 leading-relaxed">
+                <div className="pb-4 sm:pb-6">
+                  <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                     {faq.answer}
                   </p>
                 </div>

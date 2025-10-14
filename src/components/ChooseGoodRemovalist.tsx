@@ -56,14 +56,14 @@ export default function ChooseGoodRemovalist() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-12 sm:py-16 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4">
             How do I choose a good removalist?
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
             Choosing the right removalist can make your move seamless and
             stress-free. Here are a few expert tips to help you pick the right
             one.
@@ -71,23 +71,23 @@ export default function ChooseGoodRemovalist() {
         </div>
 
         {/* Main Content */}
-        <div className="bg-orange-50 rounded-3xl p-10 md:p-14 flex flex-col lg:flex-row items-center gap-12 shadow-sm">
+        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-12 shadow-sm">
           {/* Left Side - Tips */}
           <div className="w-full lg:w-1/2">
-            <div className="space-y-5 mb-10">
+            <div className="space-y-4 sm:space-y-5 mb-8 sm:mb-10">
               {tips.map((tip, index) => (
                 <div
                   key={index}
-                  className="flex items-start space-x-4 hover:-translate-y-1 transition-transform duration-300"
+                  className="flex items-start space-x-3 sm:space-x-4 hover:-translate-y-1 transition-transform duration-300"
                 >
-                  <div className="flex-shrink-0 w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center text-sm font-bold shadow-md">
+                  <div className="flex-shrink-0 w-6 h-6 sm:w-8 sm:h-8 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs sm:text-sm font-bold shadow-md">
                     {tip.number}
                   </div>
                   <div>
-                    <span className="font-bold text-blue-900">
+                    <span className="font-bold text-blue-900 text-sm sm:text-base">
                       {tip.keyword}:
                     </span>
-                    <span className="text-gray-700 ml-2">
+                    <span className="text-gray-700 ml-1 sm:ml-2 text-xs sm:text-base">
                       {tip.description}
                     </span>
                   </div>
@@ -96,15 +96,15 @@ export default function ChooseGoodRemovalist() {
             </div>
 
             {/* CTA */}
-            <div className="mt-6">
-              <p className="text-lg text-gray-700 mb-4">
+            <div className="mt-4 sm:mt-6">
+              <p className="text-base sm:text-lg text-gray-700 mb-3 sm:mb-4">
                 Find a Mover makes it simple to connect with the right
                 removalist for your job.
               </p>
-              <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-200 flex items-center">
+              <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full font-semibold transition-colors duration-200 flex items-center text-sm sm:text-base">
                 Start Getting Quotes
                 <svg
-                  className="w-5 h-5 ml-2"
+                  className="w-4 h-4 sm:w-5 sm:h-5 ml-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

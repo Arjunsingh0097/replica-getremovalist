@@ -49,7 +49,7 @@ function QuoteFormContent() {
         setFormData(prev => ({ ...prev, serviceType: selectedService.name }));
       }
     }
-  }, [category, serviceTypes]);
+  }, [category]);
 
   const propertyTypes = [
     "Single storey house",
