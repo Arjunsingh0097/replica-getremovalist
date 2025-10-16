@@ -37,7 +37,7 @@ export default function WhyUseFindAMover() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-3 sm:mb-4">
             Why use <span className="text-orange-500">Find a Mover?</span>
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
@@ -61,7 +61,7 @@ export default function WhyUseFindAMover() {
                     {benefit.icon}
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold text-black mb-1">
+                    <h3 className="text-base sm:text-lg font-bold text-black font-['DM_Sans'] mb-1">
                       {benefit.title}
                     </h3>
                     <p className="text-gray-700 text-xs sm:text-sm leading-relaxed">

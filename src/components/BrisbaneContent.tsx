@@ -6,7 +6,7 @@ export default function BrisbaneContent() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-6">
             Removalists Brisbane: What you need to know
           </h2>
         </div>
@@ -24,11 +24,11 @@ export default function BrisbaneContent() {
 
             <p>
               Coordinating a move from a traditional Queenslander in{" "}
-              <strong className="text-black">New Farm</strong> requires
+              <strong className="text-black font-['DM_Sans']">New Farm</strong> requires
               different tactics than relocating from a modern apartment in{" "}
-              <strong className="text-black">South Brisbane</strong> or a
+              <strong className="text-black font-['DM_Sans']">South Brisbane</strong> or a
               family home in{" "}
-              <strong className="text-black">Chermside</strong>. Inner
+              <strong className="text-black font-['DM_Sans']">Chermside</strong>. Inner
               suburbs often feature steep inclines and narrow streets, while
               outer regions pose challenges due to distance and accessibility.
             </p>
@@ -72,7 +72,7 @@ export default function BrisbaneContent() {
 
         {/* Brisbane Moving Tips */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-black mb-8 text-center">
+          <h3 className="text-2xl font-bold text-black font-['DM_Sans'] mb-8 text-center">
             Brisbane Moving Tips
           </h3>
 
@@ -94,7 +94,7 @@ export default function BrisbaneContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   Traffic & timing
                 </h4>
               </div>
@@ -102,8 +102,8 @@ export default function BrisbaneContent() {
                 Major routes experience congestion between 7-9 AM and 4-6:30 PM.
                 Moving mid-morning or early afternoon offers significant
                 advantages, particularly when crossing between{" "}
-                <strong className="text-black">Ascot</strong> and{" "}
-                <strong className="text-black">Carindale</strong>.
+                <strong className="text-black font-['DM_Sans']">Ascot</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Carindale</strong>.
               </p>
             </div>
 
@@ -124,15 +124,15 @@ export default function BrisbaneContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   Parking & access
                 </h4>
               </div>
               <p className="text-gray-700">
                 Inner-city areas like{" "}
-                <strong className="text-black">Kangaroo Point</strong>,{" "}
-                <strong className="text-black">West End</strong> and{" "}
-                <strong className="text-black">Newstead</strong> have limited
+                <strong className="text-black font-['DM_Sans']">Kangaroo Point</strong>,{" "}
+                <strong className="text-black font-['DM_Sans']">West End</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Newstead</strong> have limited
                 street parking. Check with Brisbane City Council about temporary
                 parking permits and be mindful of clearway times.
               </p>
@@ -155,15 +155,15 @@ export default function BrisbaneContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   High-rise & apartment moves
                 </h4>
               </div>
               <p className="text-gray-700">
                 New developments in{" "}
-                <strong className="text-black">Teneriffe</strong>,{" "}
-                <strong className="text-black">Hamilton</strong> and{" "}
-                <strong className="text-black">Woolloongabba</strong>{" "}
+                <strong className="text-black font-['DM_Sans']">Teneriffe</strong>,{" "}
+                <strong className="text-black font-['DM_Sans']">Hamilton</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Woolloongabba</strong>{" "}
                 typically have specific moving procedures. Book lift access well
                 in advance, especially in high-density apartment precincts.
               </p>
@@ -186,31 +186,31 @@ export default function BrisbaneContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   Local insider tips
                 </h4>
               </div>
               <p className="text-gray-700">
                 Plan around Brisbane's afternoon storms in summer and check for
                 road closures during events at{" "}
-                <strong className="text-black">Suncorp Stadium</strong>. Be
+                <strong className="text-black font-['DM_Sans']">Suncorp Stadium</strong>. Be
                 prepared for steep driveways in elevated suburbs like{" "}
-                <strong className="text-black">Wilston</strong> or{" "}
-                <strong className="text-black">Bulimba</strong>.
+                <strong className="text-black font-['DM_Sans']">Wilston</strong> or{" "}
+                <strong className="text-black font-['DM_Sans']">Bulimba</strong>.
               </p>
             </div>
           </div>
 
           {/* Brisbane Tip */}
           <div className="bg-blue-50 rounded-lg p-6">
-            <h4 className="text-lg font-semibold text-black mb-3">
+            <h4 className="text-lg font-semibold text-black font-['DM_Sans'] mb-3">
               Brisbane tip:
             </h4>
             <p className="text-gray-700">
               Brisbane's hilly terrain means many homes, especially classic
               Queenslanders in{" "}
-              <strong className="text-black">Paddington</strong> and{" "}
-              <strong className="text-black">Red Hill</strong>, have steep
+              <strong className="text-black font-['DM_Sans']">Paddington</strong> and{" "}
+              <strong className="text-black font-['DM_Sans']">Red Hill</strong>, have steep
               stairs and limited street access. Book removalists experienced
               with Brisbane's elevation challenges.
             </p>

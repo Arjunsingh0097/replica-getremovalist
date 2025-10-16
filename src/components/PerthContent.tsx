@@ -6,7 +6,7 @@ export default function PerthContent() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-6">
             Removalists Perth: What you need to know
           </h2>
         </div>
@@ -25,11 +25,11 @@ export default function PerthContent() {
             <p>
               Orchestrating a move from the bustling streets of Perth CBD
               differs dramatically from relocating a beachside home in{" "}
-              <strong className="text-black">Cottesloe</strong> or a family
-              dwelling in <strong className="text-black">Subiaco</strong>.
+              <strong className="text-black font-['DM_Sans']">Cottesloe</strong> or a family
+              dwelling in <strong className="text-black font-['DM_Sans']">Subiaco</strong>.
               The western suburbs showcase winding roads and heritage
               properties, while northern corridors like{" "}
-              <strong className="text-black">Joondalup</strong> feature
+              <strong className="text-black font-['DM_Sans']">Joondalup</strong> feature
               modern estates with their own access challenges.
             </p>
 
@@ -63,7 +63,7 @@ export default function PerthContent() {
             </p>
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-black mb-8 text-center">
+        <h3 className="text-2xl font-bold text-black font-['DM_Sans'] mb-8 text-center">
           Perth Moving Tips
         </h3>
 
@@ -87,7 +87,7 @@ export default function PerthContent() {
                 </svg>
               </div>
 
-              <h3 className="text-lg font-semibold text-black">
+              <h3 className="text-lg font-semibold text-black font-['DM_Sans']">
                 Traffic & timing
               </h3>
             </div>
@@ -95,8 +95,8 @@ export default function PerthContent() {
               Key routes experience heavy congestion between 7–9 AM and 3:30–6
               PM. Schedule your move during mid-day or weekends, especially when
               traveling between{" "}
-              <strong className="text-black">Scarborough</strong> and{" "}
-              <strong className="text-black">Cannington</strong>.
+              <strong className="text-black font-['DM_Sans']">Scarborough</strong> and{" "}
+              <strong className="text-black font-['DM_Sans']">Cannington</strong>.
             </p>
           </div>
 
@@ -117,15 +117,15 @@ export default function PerthContent() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-black">
+              <h3 className="text-lg font-semibold text-black font-['DM_Sans']">
                 Parking & access
               </h3>
             </div>
             <p className="text-gray-700">
               CBD locations,{" "}
-              <strong className="text-black">Northbridge</strong> and inner
+              <strong className="text-black font-['DM_Sans']">Northbridge</strong> and inner
               suburbs like{" "}
-              <strong className="text-black">Leederville</strong> have
+              <strong className="text-black font-['DM_Sans']">Leederville</strong> have
               limited parking options. Check with your local council about
               temporary parking permits and loading zone accessibility.
             </p>
@@ -152,15 +152,15 @@ export default function PerthContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   High-rise & apartment moves
                 </h4>
               </div>
               <p className="text-gray-700">
                 New developments in{" "}
-                <strong className="text-black">East Perth</strong>,{" "}
-                <strong className="text-black">South Perth</strong> and{" "}
-                <strong className="text-black">Applecross</strong> often have
+                <strong className="text-black font-['DM_Sans']">East Perth</strong>,{" "}
+                <strong className="text-black font-['DM_Sans']">South Perth</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Applecross</strong> often have
                 strict moving protocols. Book elevator access in advance and
                 confirm building regulations.
               </p>
@@ -183,7 +183,7 @@ export default function PerthContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   Local insider tips
                 </h4>
               </div>
@@ -191,15 +191,15 @@ export default function PerthContent() {
                 Be mindful of Perth's extreme summer heat—schedule moves for
                 early morning. Consider how school zones affect traffic in
                 established suburbs like{" "}
-                <strong className="text-black">Willetton</strong> and{" "}
-                <strong className="text-black">Ellenbrook</strong>.
+                <strong className="text-black font-['DM_Sans']">Willetton</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Ellenbrook</strong>.
               </p>
             </div>
           </div>
 
           {/* Perth Tip */}
           <div className="bg-blue-50 rounded-lg p-6">
-            <h4 className="text-lg font-semibold text-black mb-3">
+            <h4 className="text-lg font-semibold text-black font-['DM_Sans'] mb-3">
               Perth tip:
             </h4>
             <p className="text-gray-700">

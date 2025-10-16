@@ -139,7 +139,7 @@ export default function CustomerMovingExperiences() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-black mb-4">
+          <h2 className="text-4xl font-bold text-black font-['DM_Sans'] mb-4">
             What our customers are saying about their recent moving experiences
           </h2>
           <p className="text-lg text-gray-700">

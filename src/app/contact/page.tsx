@@ -41,7 +41,7 @@ export default function ContactUs() {
             
             {/* Left Column - Online Enquiry Form */}
             <div className="p-8 lg:p-12">
-              <h2 className="text-3xl font-bold text-black mb-8">Online Enquiry</h2>
+              <h2 className="text-3xl font-bold text-black font-['DM_Sans'] mb-8">Online Enquiry</h2>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 
@@ -157,7 +157,7 @@ export default function ContactUs() {
                 
                 {/* Address */}
                 <div>
-                  <h3 className="text-xl font-bold text-black mb-4">Address</h3>
+                  <h3 className="text-xl font-bold text-black font-['DM_Sans'] mb-4">Address</h3>
                   <div className="space-y-1 text-gray-700">
                     <p>Find a Mover Pty Ltd</p>
                     <p>ABN: 99 167 776 838</p>
@@ -168,7 +168,7 @@ export default function ContactUs() {
 
                 {/* Support Hours */}
                 <div>
-                  <h3 className="text-xl font-bold text-black mb-4">Support Hours:</h3>
+                  <h3 className="text-xl font-bold text-black font-['DM_Sans'] mb-4">Support Hours:</h3>
                   <div className="space-y-1 text-gray-700">
                     <p>9:00am - 5:00pm</p>
                     <p>Monday to Friday</p>
@@ -177,7 +177,7 @@ export default function ContactUs() {
 
                 {/* Call Us */}
                 <div>
-                  <h3 className="text-xl font-bold text-black mb-4">Call Us</h3>
+                  <h3 className="text-xl font-bold text-black font-['DM_Sans'] mb-4">Call Us</h3>
                   <div className="space-y-1 text-gray-700">
                     <p>Phone: 1300 486 839</p>
                   </div>
@@ -185,7 +185,7 @@ export default function ContactUs() {
 
                 {/* Important Note */}
                 <div className="bg-blue-50 p-6 rounded-2xl border border-blue-200">
-                  <h4 className="text-lg font-bold text-black mb-3">Please Note</h4>
+                  <h4 className="text-lg font-bold text-black font-['DM_Sans'] mb-3">Please Note</h4>
                   <p className="text-gray-700 text-sm leading-relaxed">
                     Find a Mover is a quote comparison site. We do not provide quotes over the phone. 
                     To get removalists quotes please{' '}

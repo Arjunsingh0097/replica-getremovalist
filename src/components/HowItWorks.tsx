@@ -36,7 +36,7 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-3 sm:mb-4">
             How it works
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
@@ -46,22 +46,22 @@ export default function HowItWorks() {
         </div>
 
         {/* Main Container */}
-        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 shadow-sm">
+        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 sm:gap-12 shadow-sm">
           {/* Left Side - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
-            <div className="relative rounded-2xl overflow-hidden w-full max-w-md shadow-md">
+          <div className="w-full lg:w-[60%] flex justify-center">
+            <div className="relative rounded-3xl overflow-hidden w-full max-w-3xl shadow-lg">
               <Image
                 src="/images/interstateremoval.png"
                 alt="Professional movers at work"
-                width={600}
-                height={400}
-                className="object-cover w-full h-full rounded-2xl"
+                width={900}
+                height={600}
+                className="object-cover w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[550px] rounded-3xl"
               />
             </div>
           </div>
 
           {/* Right Side - Steps */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-[40%]">
             <div className="relative">
               {steps.map((step, index) => (
                 <div
@@ -70,18 +70,18 @@ export default function HowItWorks() {
                 >
                   {/* Step Number */}
                   <div className="flex flex-col items-center relative">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg shadow-md">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg shadow-md">
                       {step.number}
                     </div>
                     {/* Connecting Line */}
                     {index < steps.length - 1 && (
-                      <div className="w-px h-6 sm:h-8 md:h-10 bg-gray-300 mt-1"></div>
+                      <div className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 mt-1"></div>
                     )}
                   </div>
 
                   {/* Step Content */}
                   <div>
-                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-black mb-1 sm:mb-2">
+                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-black font-['DM_Sans'] mb-1 sm:mb-2">
                       {step.title}
                     </h3>
                     <p className="text-gray-700 leading-relaxed text-sm sm:text-base">

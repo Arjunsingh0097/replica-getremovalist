@@ -60,7 +60,7 @@ export default function ChooseGoodRemovalist() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-3 sm:mb-4">
             How do I choose a good removalist?
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto px-4 sm:px-0">
@@ -84,7 +84,7 @@ export default function ChooseGoodRemovalist() {
                     {tip.number}
                   </div>
                   <div>
-                    <span className="font-bold text-black text-sm sm:text-base">
+                    <span className="font-bold text-black font-['DM_Sans'] text-sm sm:text-base">
                       {tip.keyword}:
                     </span>
                     <span className="text-gray-700 ml-1 sm:ml-2 text-xs sm:text-base">

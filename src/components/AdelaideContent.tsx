@@ -6,7 +6,7 @@ export default function AdelaideContent() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-6">
             Removalists Adelaide: What you need to know
           </h2>
         </div>
@@ -25,11 +25,11 @@ export default function AdelaideContent() {
 
             <p>
               Orchestrating a move from a heritage bluestone villa in{" "}
-              <strong className="text-black">Unley</strong> requires
+              <strong className="text-black font-['DM_Sans']">Unley</strong> requires
               different considerations than relocating from a contemporary
-              apartment in <strong className="text-black">Bowden</strong> or
+              apartment in <strong className="text-black font-['DM_Sans']">Bowden</strong> or
               a family home in{" "}
-              <strong className="text-black">Burnside</strong>. The inner
+              <strong className="text-black font-['DM_Sans']">Burnside</strong>. The inner
               ring suburbs feature character homes with period features and
               narrow laneways, while the developing regions present their own
               blend of newer roads and emerging communities.
@@ -70,7 +70,7 @@ export default function AdelaideContent() {
             </p>
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-black mb-8 text-center">
+        <h3 className="text-2xl font-bold text-black font-['DM_Sans'] mb-8 text-center">
           Adelaide Moving Tips
         </h3>
 
@@ -93,7 +93,7 @@ export default function AdelaideContent() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-black">
+              <h3 className="text-lg font-semibold text-black font-['DM_Sans']">
                 Traffic & timing
               </h3>
             </div>
@@ -101,7 +101,7 @@ export default function AdelaideContent() {
               Key routes experience peak congestion between 7:30-9 AM and 4-6
               PM. The Southern Expressway's directional changes require careful
               scheduling, particularly when moving to or from southern suburbs
-              like <strong className="text-black">Adelaide Hills</strong>{" "}
+              like <strong className="text-black font-['DM_Sans']">Adelaide Hills</strong>{" "}
               area.
             </p>
           </div>
@@ -123,14 +123,14 @@ export default function AdelaideContent() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-black">
+              <h3 className="text-lg font-semibold text-black font-['DM_Sans']">
                 Parking & access
               </h3>
             </div>
             <p className="text-gray-700">
               CBD locations and inner suburbs like{" "}
-              <strong className="text-black">North Adelaide</strong> and{" "}
-              <strong className="text-black">Norwood</strong> have
+              <strong className="text-black font-['DM_Sans']">North Adelaide</strong> and{" "}
+              <strong className="text-black font-['DM_Sans']">Norwood</strong> have
               time-limited parking and permit zones. Check with Adelaide City
               Council about temporary parking permits.
             </p>
@@ -157,15 +157,15 @@ export default function AdelaideContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   High-rise & apartment moves
                 </h4>
               </div>
               <p className="text-gray-700">
                 New developments in areas like{" "}
-                <strong className="text-black">West Beach</strong>,{" "}
-                <strong className="text-black">Glenelg</strong> and{" "}
-                <strong className="text-black">West Lakes</strong> typically
+                <strong className="text-black font-['DM_Sans']">West Beach</strong>,{" "}
+                <strong className="text-black font-['DM_Sans']">Glenelg</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">West Lakes</strong> typically
                 require advance booking for lift access. Apartment precincts
                 often have specific moving day protocols.
               </p>
@@ -188,34 +188,34 @@ export default function AdelaideContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-black">
+                <h4 className="text-lg font-semibold text-black font-['DM_Sans']">
                   Local insider tips
                 </h4>
               </div>
               <p className="text-gray-700">
                 Avoid scheduling moves during major festivals like{" "}
-                <strong className="text-black">Adelaide Festival</strong> or
+                <strong className="text-black font-['DM_Sans']">Adelaide Festival</strong> or
                 major events at{" "}
-                <strong className="text-black">Adelaide Oval</strong>. Be
+                <strong className="text-black font-['DM_Sans']">Adelaide Oval</strong>. Be
                 extra cautious during extreme heat days in summer, and plan
                 around school zones in established suburbs like{" "}
-                <strong className="text-black">Prospect</strong> and{" "}
-                <strong className="text-black">Walkerville</strong>.
+                <strong className="text-black font-['DM_Sans']">Prospect</strong> and{" "}
+                <strong className="text-black font-['DM_Sans']">Walkerville</strong>.
               </p>
             </div>
           </div>
 
           {/* Adelaide Tip */}
           <div className="bg-blue-50 rounded-lg p-6">
-            <h4 className="text-lg font-semibold text-black mb-3">
+            <h4 className="text-lg font-semibold text-black font-['DM_Sans'] mb-3">
               Adelaide tip:
             </h4>
             <p className="text-gray-700">
               Summer temperatures can exceed 40°C from December to February.
               Book early morning moves (6-8 AM) to avoid the worst heat. Also
               check if your move affects major festivals like{" "}
-              <strong className="text-black">Adelaide Festival</strong> or{" "}
-              <strong className="text-black">Fringe</strong>, which can
+              <strong className="text-black font-['DM_Sans']">Adelaide Festival</strong> or{" "}
+              <strong className="text-black font-['DM_Sans']">Fringe</strong>, which can
               impact CBD access.
             </p>
           </div>

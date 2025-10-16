@@ -71,7 +71,7 @@ export default function FindRemovalistsAustralia() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-4">
             Find Removalists Australia Wide
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">

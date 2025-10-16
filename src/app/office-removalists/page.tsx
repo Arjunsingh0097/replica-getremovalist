@@ -31,7 +31,7 @@ function AustraliaWideOfficeRemovalists() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-black mb-4">
+          <h2 className="text-3xl font-bold text-black font-['DM_Sans'] mb-4">
             Find Office Removalists Australia Wide
           </h2>
           <p className="text-lg text-gray-600">
@@ -58,7 +58,7 @@ function AustraliaWideOfficeRemovalists() {
         <div className="text-center mt-12">
           <a 
             href="/job/new" 
-            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-['DM_Sans'] font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
           >
             Get Free Office Removal Quotes
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

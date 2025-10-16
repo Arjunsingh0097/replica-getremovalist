@@ -58,7 +58,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-white text-black">
+    <footer className="bg-white text-black font-['DM_Sans']">
       {/* Top CTA Banner */}
       <div className="bg-orange-500 py-16 sm:py-20 text-center text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
@@ -93,7 +93,7 @@ export default function Footer() {
                 <a
                   key={index}
                   href={link.href}
-                  className="block text-black hover:text-orange-500 transition-colors duration-200 text-sm sm:text-base"
+                  className="block text-black font-['DM_Sans'] hover:text-orange-500 transition-colors duration-200 text-sm sm:text-base"
                 >
                   {link.name}
                 </a>
@@ -110,13 +110,13 @@ export default function Footer() {
             "Other Cities": footerLinks.otherCities,
           }).map(([title, links]) => (
             <div key={title}>
-              <h4 className="text-base sm:text-lg font-bold text-black mb-3 sm:mb-4">{title}</h4>
+              <h4 className="text-base sm:text-lg font-bold text-black font-['DM_Sans'] mb-3 sm:mb-4">{title}</h4>
               <div className="space-y-2">
                 {links.map((link, index) => (
                   <a
                     key={index}
                     href={link.href}
-                    className="block text-black hover:text-orange-500 transition-colors duration-200 text-sm sm:text-base"
+                    className="block text-black font-['DM_Sans'] hover:text-orange-500 transition-colors duration-200 text-sm sm:text-base"
                   >
                     {link.name}
                   </a>

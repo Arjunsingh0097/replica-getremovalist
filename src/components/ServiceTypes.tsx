@@ -22,7 +22,7 @@ export default function ServiceTypes() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12 md:mb-14">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['DM_Sans'] mb-3 sm:mb-4">
             What service types can I get quotes for?
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed px-4 sm:px-0">
@@ -45,7 +45,7 @@ export default function ServiceTypes() {
               </div>
 
               {/* Title */}
-              <h3 className="text-black font-semibold text-xs sm:text-sm md:text-base hover:text-orange-500 transition-colors duration-200 underline-offset-2 leading-tight">
+              <h3 className="text-black font-['DM_Sans'] font-semibold text-xs sm:text-sm md:text-base hover:text-orange-500 transition-colors duration-200 underline-offset-2 leading-tight">
                 {service.title}
               </h3>
             </div>
