@@ -53,7 +53,7 @@ export default function RecentlyBookedMoves() {
     <section className="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
         {/* Section Header */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900 mb-3 sm:mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-4">
           Recently <span className="text-orange-500">Booked Moves</span>
         </h2>
         <p className="text-gray-600 text-base sm:text-lg mb-8 sm:mb-10 md:mb-12 px-4 sm:px-0">
@@ -72,7 +72,7 @@ export default function RecentlyBookedMoves() {
               key={index}
               className="flex-none w-72 sm:w-80 bg-white border border-gray-100 rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
             >
-              <p className="text-blue-900 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
+              <p className="text-black text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
                 <span className="font-bold text-orange-500">{move.name}</span>{" "}
                 {move.description}
               </p>
@@ -93,7 +93,7 @@ export default function RecentlyBookedMoves() {
               key={`dup-${index}`}
               className="flex-none w-72 sm:w-80 bg-white border border-gray-100 rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
             >
-              <p className="text-blue-900 text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
+              <p className="text-black text-xs sm:text-sm leading-relaxed mb-4 sm:mb-5">
                 <span className="font-bold text-orange-500">{move.name}</span>{" "}
                 {move.description}
               </p>

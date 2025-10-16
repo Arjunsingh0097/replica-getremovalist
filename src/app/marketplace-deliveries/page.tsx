@@ -30,7 +30,7 @@ function AustraliaWideMarketplaceTransporters() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-900 mb-4">
+          <h2 className="text-3xl font-bold text-black mb-4">
             Find Gumtree & Ebay Transporters Australia Wide
           </h2>
           <p className="text-lg text-gray-600">
@@ -57,7 +57,7 @@ function AustraliaWideMarketplaceTransporters() {
         <div className="text-center mt-12">
           <a 
             href="/job/new" 
-            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-blue-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
           >
             Get Free Marketplace Quotes
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,7 +144,7 @@ function InterstateMarketplaceRoutes() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-900 mb-4">
+          <h2 className="text-3xl font-bold text-black mb-4">
             Gumtree & ebay transporters servicing major routes
           </h2>
           <p className="text-lg text-gray-600">
@@ -171,7 +171,7 @@ function InterstateMarketplaceRoutes() {
         <div className="text-center mt-12">
           <a 
             href="/job/new" 
-            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-blue-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
           >
             Get Free Interstate Marketplace Quotes
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

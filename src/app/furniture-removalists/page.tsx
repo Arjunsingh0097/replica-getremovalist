@@ -81,7 +81,7 @@ function AustraliaWideFurnitureRemovalists() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
           Find Furniture Removalists Australia Wide
         </h2>
         <p className="text-gray-600 text-lg mb-12">
@@ -109,7 +109,7 @@ function AustraliaWideFurnitureRemovalists() {
 
         <a
           href="/job/new"
-          className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-blue-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+          className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
         >
           Get Free Interstate Furniture Quotes
           <svg
@@ -203,7 +203,7 @@ function InterstateFurnitureRoutes() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
           Furniture Removalists Servicing Major Routes
         </h2>
         <p className="text-gray-600 text-lg mb-12">
@@ -231,7 +231,7 @@ function InterstateFurnitureRoutes() {
 
         <a
           href="/job/new"
-          className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-blue-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+          className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
         >
           Get Free Interstate Furniture Quotes
           <svg

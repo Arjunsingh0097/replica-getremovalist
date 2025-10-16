@@ -39,7 +39,7 @@ export default function JoinNetwork() {
           {/* Left Column - Benefits Section */}
           <div className="space-y-8">
             <div>
-              <h1 className="text-4xl font-bold text-blue-900 mb-6">
+              <h1 className="text-4xl font-bold text-black mb-6">
                 We can help you get more customers
               </h1>
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -59,7 +59,7 @@ export default function JoinNetwork() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900">Get job leads</h3>
+                  <h3 className="text-lg font-bold text-black">Get job leads</h3>
                 </div>
                 <p className="text-gray-600">
                   Receive job leads directly to your inbox as they come in, or browse leads in your provider dashboard. 
@@ -75,7 +75,7 @@ export default function JoinNetwork() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900">Showcase your business</h3>
+                  <h3 className="text-lg font-bold text-black">Showcase your business</h3>
                 </div>
                 <p className="text-gray-600">
                   Find a Mover is a great way to showcase your business. Earn great reviews from Find a Mover customers 
@@ -91,7 +91,7 @@ export default function JoinNetwork() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900">Track and manage quotes and bookings</h3>
+                  <h3 className="text-lg font-bold text-black">Track and manage quotes and bookings</h3>
                 </div>
                 <p className="text-gray-600">
                   We've gone to great efforts to create a platform that is easy to use yet has nice features for 
@@ -107,7 +107,7 @@ export default function JoinNetwork() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900">Competitive pricing with no commissions</h3>
+                  <h3 className="text-lg font-bold text-black">Competitive pricing with no commissions</h3>
                 </div>
                 <p className="text-gray-600">
                   Our price per lead is extremely competitive compared to many other lead generation websites. 
@@ -123,7 +123,7 @@ export default function JoinNetwork() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-900">Follow up quotes directly with the customer</h3>
+                  <h3 className="text-lg font-bold text-black">Follow up quotes directly with the customer</h3>
                 </div>
                 <p className="text-gray-600">
                   After you've provided a quote to the customer, we'll send you the customer's phone number so you can 
@@ -136,7 +136,7 @@ export default function JoinNetwork() {
 
           {/* Right Column - Registration Form */}
           <div className="bg-white rounded-xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold text-blue-900 mb-8">Register Your Business</h2>
+            <h2 className="text-3xl font-bold text-black mb-8">Register Your Business</h2>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               

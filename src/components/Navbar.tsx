@@ -102,7 +102,7 @@ export default function Navbar() {
                 setIsLocalOpen(false);
                 setIsInterstateOpen(false);
               }}
-              className="flex items-center text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+              className="flex items-center text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
               aria-expanded={isMoveTypesOpen}
               aria-haspopup="true"
             >
@@ -136,7 +136,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={moveType.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-900 focus:bg-gray-100 focus:text-blue-900 focus:outline-none"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none"
                       onClick={() => setIsMoveTypesOpen(false)}
                       role="menuitem"
                     >
@@ -156,7 +156,7 @@ export default function Navbar() {
                 setIsMoveTypesOpen(false);
                 setIsInterstateOpen(false);
               }}
-              className="flex items-center text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+              className="flex items-center text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
               aria-expanded={isLocalOpen}
               aria-haspopup="true"
             >
@@ -190,7 +190,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={city.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-900 focus:bg-gray-100 focus:text-blue-900 focus:outline-none"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none"
                       onClick={() => setIsLocalOpen(false)}
                       role="menuitem"
                     >
@@ -210,7 +210,7 @@ export default function Navbar() {
                 setIsMoveTypesOpen(false);
                 setIsLocalOpen(false);
               }}
-              className="flex items-center text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+              className="flex items-center text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
               aria-expanded={isInterstateOpen}
               aria-haspopup="true"
             >
@@ -244,7 +244,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={city.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-900 focus:bg-gray-100 focus:text-blue-900 focus:outline-none"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-black focus:bg-gray-100 focus:text-black focus:outline-none"
                       onClick={() => setIsInterstateOpen(false)}
                       role="menuitem"
                     >
@@ -286,7 +286,7 @@ export default function Navbar() {
           aria-label="Toggle mobile menu"
         >
           <svg
-            className="w-6 h-6 text-blue-900"
+            className="w-6 h-6 text-black"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -324,7 +324,7 @@ export default function Navbar() {
             <div>
               <button
                 onClick={() => setIsMoveTypesOpen(!isMoveTypesOpen)}
-                className="flex items-center justify-between w-full text-left text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+                className="flex items-center justify-between w-full text-left text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
                 aria-expanded={isMoveTypesOpen}
               >
                 Move Types
@@ -351,7 +351,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={moveType.href}
-                      className="block text-sm text-gray-700 hover:text-blue-900 focus:text-blue-900 focus:outline-none py-1"
+                      className="block text-sm text-gray-700 hover:text-black focus:text-black focus:outline-none py-1"
                       onClick={() => {
                         setIsMoveTypesOpen(false);
                         setIsMobileMenuOpen(false);
@@ -368,7 +368,7 @@ export default function Navbar() {
             <div>
               <button
                 onClick={() => setIsLocalOpen(!isLocalOpen)}
-                className="flex items-center justify-between w-full text-left text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+                className="flex items-center justify-between w-full text-left text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
                 aria-expanded={isLocalOpen}
               >
                 Local
@@ -395,7 +395,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={city.href}
-                      className="block text-sm text-gray-700 hover:text-blue-900 focus:text-blue-900 focus:outline-none py-1"
+                      className="block text-sm text-gray-700 hover:text-black focus:text-black focus:outline-none py-1"
                       onClick={() => {
                         setIsLocalOpen(false);
                         setIsMobileMenuOpen(false);
@@ -412,7 +412,7 @@ export default function Navbar() {
             <div>
               <button
                 onClick={() => setIsInterstateOpen(!isInterstateOpen)}
-                className="flex items-center justify-between w-full text-left text-blue-900 font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
+                className="flex items-center justify-between w-full text-left text-black font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded px-2 py-1"
                 aria-expanded={isInterstateOpen}
               >
                 Interstate
@@ -439,7 +439,7 @@ export default function Navbar() {
                     <Link
                       key={index}
                       href={city.href}
-                      className="block text-sm text-gray-700 hover:text-blue-900 focus:text-blue-900 focus:outline-none py-1"
+                      className="block text-sm text-gray-700 hover:text-black focus:text-black focus:outline-none py-1"
                       onClick={() => {
                         setIsInterstateOpen(false);
                         setIsMobileMenuOpen(false);

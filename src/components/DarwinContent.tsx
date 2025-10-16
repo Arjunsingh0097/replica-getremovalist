@@ -6,7 +6,7 @@ export default function DarwinContent() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
             Removalists Darwin: What you need to know
           </h2>
         </div>
@@ -18,7 +18,7 @@ export default function DarwinContent() {
               Darwin is the tropical capital of the Northern Territory, where
               the city spreads across a peninsula from the bustling CBD to
               northern suburbs and the satellite city of{" "}
-              <strong className="text-blue-900">Palmerston</strong>. Moving in
+              <strong className="text-black">Palmerston</strong>. Moving in
               Darwin presents unique challenges shaped by its tropical climate,
               limited arterial routes, and the city's distinctive architectural
               responses to extreme weather conditions.
@@ -26,11 +26,11 @@ export default function DarwinContent() {
 
             <p>
               Orchestrating a move from an elevated home in{" "}
-              <strong className="text-blue-900">Fannie Bay</strong> or{" "}
-              <strong className="text-blue-900">Larrakeyah</strong> requires
+              <strong className="text-black">Fannie Bay</strong> or{" "}
+              <strong className="text-black">Larrakeyah</strong> requires
               different strategies than relocating from a CBD apartment or a
-              family home in <strong className="text-blue-900">Muirhead</strong>{" "}
-              or <strong className="text-blue-900">Lyons</strong>. Inner areas
+              family home in <strong className="text-black">Muirhead</strong>{" "}
+              or <strong className="text-black">Lyons</strong>. Inner areas
               feature elevated designs optimized for airflow, while newer
               suburbs showcase contemporary architecture with
               climate-appropriate features.
@@ -39,13 +39,13 @@ export default function DarwinContent() {
             <p>
               Darwin's arterial network shapes your moving experience. Key
               routes like{" "}
-              <strong className="text-blue-900">Tiger Brennan Drive</strong> and
-              the <strong className="text-blue-900">Stuart Highway</strong>{" "}
+              <strong className="text-black">Tiger Brennan Drive</strong> and
+              the <strong className="text-black">Stuart Highway</strong>{" "}
               experience predictable peak hour congestion between 7-8:30 AM and
               4-5:30 PM. Strategic planning becomes crucial for trips to{" "}
-              <strong className="text-blue-900">Palmerston</strong>, while the
+              <strong className="text-black">Palmerston</strong>, while the
               occasional impact of Defence facilities at{" "}
-              <strong className="text-blue-900">Tindal</strong> can affect
+              <strong className="text-black">Tindal</strong> can affect
               northern route traffic.
             </p>
 
@@ -67,7 +67,7 @@ export default function DarwinContent() {
             </p>
           </div>
         </div>
-        <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">
+        <h3 className="text-2xl font-bold text-black mb-8 text-center">
           Darwin Moving Tips
         </h3>
 
@@ -90,7 +90,7 @@ export default function DarwinContent() {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-semibold text-blue-900">
+              <h4 className="text-lg font-semibold text-black">
                 Tropical climate challenges
               </h4>
             </div>
@@ -102,8 +102,8 @@ export default function DarwinContent() {
               </li>
               <li>Always have waterproof coverings ready.</li>
               <li>
-                <strong className="text-blue-900">Nightcliff</strong> and{" "}
-                <strong className="text-blue-900">Parap</strong> are
+                <strong className="text-black">Nightcliff</strong> and{" "}
+                <strong className="text-black">Parap</strong> are
                 particularly exposed to coastal weather.
               </li>
             </ul>
@@ -126,23 +126,23 @@ export default function DarwinContent() {
                   />
                 </svg>
               </div>
-              <h4 className="text-lg font-semibold text-blue-900">
+              <h4 className="text-lg font-semibold text-black">
                 Traffic & timing
               </h4>
             </div>
             <ul className="space-y-2 text-gray-700">
               <li>
                 Congestion on{" "}
-                <strong className="text-blue-900">Tiger Brennan Drive</strong>,{" "}
-                <strong className="text-blue-900">Stuart Highway</strong> and{" "}
-                <strong className="text-blue-900">Bagot Road</strong> during
+                <strong className="text-black">Tiger Brennan Drive</strong>,{" "}
+                <strong className="text-black">Stuart Highway</strong> and{" "}
+                <strong className="text-black">Bagot Road</strong> during
                 peak times.
               </li>
               <li>
-                <strong className="text-blue-900">Berrimah Road</strong> creates
+                <strong className="text-black">Berrimah Road</strong> creates
                 bottlenecks for{" "}
-                <strong className="text-blue-900">Berrimah</strong> and{" "}
-                <strong className="text-blue-900">Palmerston</strong> commuters.
+                <strong className="text-black">Berrimah</strong> and{" "}
+                <strong className="text-black">Palmerston</strong> commuters.
                 RAAF Base movements periodically affect northern routes.
               </li>
             </ul>
@@ -169,19 +169,19 @@ export default function DarwinContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-blue-900">
+                <h4 className="text-lg font-semibold text-black">
                   Elevated homes
                 </h4>
               </div>
               <p className="text-gray-700">
                 Traditional homes in{" "}
-                <strong className="text-blue-900">Fannie Bay</strong>,{" "}
-                <strong className="text-blue-900">Parap</strong> and{" "}
-                <strong className="text-blue-900">Nightcliff</strong> have
+                <strong className="text-black">Fannie Bay</strong>,{" "}
+                <strong className="text-black">Parap</strong> and{" "}
+                <strong className="text-black">Nightcliff</strong> have
                 stairs and stilts designed for airflow, not furniture access.
                 Areas like{" "}
-                <strong className="text-blue-900">Stuart Park</strong> and{" "}
-                <strong className="text-blue-900">The Narrows</strong> often
+                <strong className="text-black">Stuart Park</strong> and{" "}
+                <strong className="text-black">The Narrows</strong> often
                 require special equipment for elevated access.
               </p>
             </div>
@@ -203,15 +203,15 @@ export default function DarwinContent() {
                     />
                   </svg>
                 </div>
-                <h4 className="text-lg font-semibold text-blue-900">
+                <h4 className="text-lg font-semibold text-black">
                   Local tips
                 </h4>
               </div>
               <p className="text-gray-700">
                 Book accommodation early during Dry Season tourist peak. Darwin
                 operates early hours (7 AM-3 PM) to avoid afternoon heat.{" "}
-                <strong className="text-blue-900">Brinkin</strong> and{" "}
-                <strong className="text-blue-900">Coconut Grove</strong> offer
+                <strong className="text-black">Brinkin</strong> and{" "}
+                <strong className="text-black">Coconut Grove</strong> offer
                 convenient access points for major routes.
               </p>
             </div>
@@ -219,7 +219,7 @@ export default function DarwinContent() {
 
           {/* Darwin Tip */}
           <div className="bg-blue-50 rounded-lg p-6">
-            <h4 className="text-lg font-semibold text-blue-900 mb-3">
+            <h4 className="text-lg font-semibold text-black mb-3">
               Darwin tip:
             </h4>
             <p className="text-gray-700">

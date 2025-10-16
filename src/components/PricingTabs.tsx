@@ -202,11 +202,11 @@ export default function PricingTabs({ city }: PricingTabsProps) {
         {/* Main Heading */}
         {city !== "Brisbane" && (
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
               How much does a removalist cost in {city}?
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Local moving in {city} typically costs between <strong className="text-blue-900">$1,100-$1,600</strong> for an average 2-bedroom home. Most {city} removalists charge <strong className="text-blue-900">$120-$175 per hour</strong> for a standard 2-person team, with final costs depending on your home size, location within {city}, access difficulties, and time of year.
+              Local moving in {city} typically costs between <strong className="text-black">$1,100-$1,600</strong> for an average 2-bedroom home. Most {city} removalists charge <strong className="text-black">$120-$175 per hour</strong> for a standard 2-person team, with final costs depending on your home size, location within {city}, access difficulties, and time of year.
             </p>
           </div>
         )}
@@ -219,8 +219,8 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                 onClick={() => setActiveTab("pricing")}
                 className={`px-6 py-3 rounded-md font-medium transition-colors ${
                   activeTab === "pricing"
-                    ? "bg-white text-blue-900 shadow-sm"
-                    : "text-gray-600 hover:text-blue-900"
+                    ? "bg-white text-black shadow-sm"
+                    : "text-gray-600 hover:text-black"
                 }`}
               >
                 Pricing Guide
@@ -229,8 +229,8 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                 onClick={() => setActiveTab("suburbs")}
                 className={`px-6 py-3 rounded-md font-medium transition-colors ${
                   activeTab === "suburbs"
-                    ? "bg-white text-blue-900 shadow-sm"
-                    : "text-gray-600 hover:text-blue-900"
+                    ? "bg-white text-black shadow-sm"
+                    : "text-gray-600 hover:text-black"
                 }`}
               >
                 {city} Suburb Guide
@@ -239,8 +239,8 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                 onClick={() => setActiveTab("additional")}
                 className={`px-6 py-3 rounded-md font-medium transition-colors ${
                   activeTab === "additional"
-                    ? "bg-white text-blue-900 shadow-sm"
-                    : "text-gray-600 hover:text-blue-900"
+                    ? "bg-white text-black shadow-sm"
+                    : "text-gray-600 hover:text-black"
                 }`}
               >
                 Additional Costs
@@ -255,7 +255,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
             {/* Pricing Table */}
             {city !== "Brisbane" && (
               <div>
-                <h3 className="text-2xl font-bold text-blue-900 mb-4 text-center">
+                <h3 className="text-2xl font-bold text-black mb-4 text-center">
                   {city} Local Moving Cost Guide (2025 Prices)
                 </h3>
                 <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
@@ -288,7 +288,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
             {/* Hourly Rates */}
             {city !== "Brisbane" && (
               <div>
-                <h3 className="text-2xl font-bold text-blue-900 mb-4 text-center">
+                <h3 className="text-2xl font-bold text-black mb-4 text-center">
                   Hourly Rates for {city} Removalists
                 </h3>
                 <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
@@ -299,8 +299,8 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                   {hourlyRates.map((rate, index) => (
                     <div key={index} className="bg-gray-50 rounded-lg p-6 text-center">
                       <div className="text-3xl mb-4">{rate.icon}</div>
-                      <h4 className="text-lg font-semibold text-blue-900 mb-2">{rate.title}</h4>
-                      <div className="text-xl font-bold text-blue-900 mb-2">{rate.price}</div>
+                      <h4 className="text-lg font-semibold text-black mb-2">{rate.title}</h4>
+                      <div className="text-xl font-bold text-black mb-2">{rate.price}</div>
                       <p className="text-sm text-gray-600">{rate.description}</p>
                     </div>
                   ))}
@@ -311,13 +311,13 @@ export default function PricingTabs({ city }: PricingTabsProps) {
             {/* Cost Factors */}
             {city !== "Brisbane" && (
               <div className="bg-gray-50 rounded-lg p-8">
-                <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
+                <h3 className="text-2xl font-bold text-black mb-6 text-center">
                   What impacts moving costs in {city}?
                 </h3>
                 <ul className="space-y-3 max-w-3xl mx-auto">
                   {costFactors.map((factor, index) => (
                     <li key={index} className="flex items-start">
-                      <span className="text-blue-900 mr-3 mt-1">•</span>
+                      <span className="text-black mr-3 mt-1">•</span>
                       <span className="text-gray-700">{factor}</span>
                     </li>
                   ))}
@@ -329,7 +329,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
 
         {city !== "Brisbane" && activeTab === "suburbs" && (
           <div>
-            <h3 className="text-2xl font-bold text-blue-900 mb-4 text-center">
+            <h3 className="text-2xl font-bold text-black mb-4 text-center">
               {city} Moving Costs by Region
             </h3>
             <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
@@ -365,10 +365,10 @@ export default function PricingTabs({ city }: PricingTabsProps) {
             </div>
             
             <div className="mt-8 bg-blue-50 rounded-lg p-6">
-              <h4 className="text-lg font-semibold text-blue-900 mb-3">Regional Cost Insights</h4>
+              <h4 className="text-lg font-semibold text-black mb-3">Regional Cost Insights</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-700">
                 <div>
-                  <p className="font-medium text-blue-900 mb-2">Higher Cost Areas:</p>
+                  <p className="font-medium text-black mb-2">Higher Cost Areas:</p>
                   <ul className="space-y-1">
                     {city === "Sydney" ? (
                       <>
@@ -386,7 +386,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                   </ul>
                 </div>
                 <div>
-                  <p className="font-medium text-blue-900 mb-2">Lower Cost Areas:</p>
+                  <p className="font-medium text-black mb-2">Lower Cost Areas:</p>
                   <ul className="space-y-1">
                     {city === "Sydney" ? (
                       <>
@@ -410,7 +410,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
 
         {city !== "Brisbane" && activeTab === "additional" && (
           <div>
-            <h3 className="text-2xl font-bold text-blue-900 mb-4 text-center">
+            <h3 className="text-2xl font-bold text-black mb-4 text-center">
               Additional Costs
             </h3>
             <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
@@ -446,7 +446,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
                     </svg>
                   </div>
-                  <h4 className="text-lg font-semibold text-blue-900">Common Additional Costs</h4>
+                  <h4 className="text-lg font-semibold text-black">Common Additional Costs</h4>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -479,7 +479,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
-                  <h4 className="text-lg font-semibold text-blue-900">Optional Services</h4>
+                  <h4 className="text-lg font-semibold text-black">Optional Services</h4>
                 </div>
                 <ul className="space-y-3">
                   <li className="flex items-start">
@@ -513,7 +513,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </div>
-                <h4 className="text-xl font-semibold text-blue-900">Cost-Saving Tips</h4>
+                <h4 className="text-xl font-semibold text-black">Cost-Saving Tips</h4>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
@@ -523,7 +523,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <p className="font-semibold text-blue-900">Plan Ahead</p>
+                    <p className="font-semibold text-black">Plan Ahead</p>
                   </div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -547,7 +547,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
-                    <p className="font-semibold text-blue-900">Minimize Challenges</p>
+                    <p className="font-semibold text-black">Minimize Challenges</p>
                   </div>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -573,7 +573,7 @@ export default function PricingTabs({ city }: PricingTabsProps) {
         <div className="text-center mt-12">
           <a 
             href="/job/new" 
-            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-blue-900 font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center px-8 py-4 bg-amber-500 hover:bg-amber-600 text-black font-semibold rounded-full shadow-md transition-all duration-300 hover:-translate-y-1"
           >
             Get Moving Quotes
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
