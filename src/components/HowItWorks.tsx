@@ -46,7 +46,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Main Container */}
-        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 sm:gap-12 shadow-sm">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-10 sm:gap-12">
           {/* Left Side - Image */}
           <div className="w-full lg:w-[60%] flex justify-center">
             <div className="relative rounded-3xl overflow-hidden w-full max-w-3xl shadow-lg">
@@ -73,10 +73,6 @@ export default function HowItWorks() {
                     <div className="w-9 h-9 sm:w-11 sm:h-11 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg shadow-md">
                       {step.number}
                     </div>
-                    {/* Connecting Line */}
-                    {index < steps.length - 1 && (
-                      <div className="w-px h-8 sm:h-10 md:h-12 bg-gray-300 mt-1"></div>
-                    )}
                   </div>
 
                   {/* Step Content */}

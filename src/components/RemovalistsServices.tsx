@@ -24,7 +24,9 @@ export default function RemovalistsServices() {
       title: "Interstate removals",
       description: (
         <>
-          Find a Mover's network extends right across Australia to every major capital city so you can count on us for all your interstate moves, whether it's{" "}
+          Find a Mover's network extends right across Australia to every major
+          capital city so you can count on us for all your interstate moves,
+          whether it's{" "}
           <a href="#" className="text-blue-600 underline hover:text-blue-800">
             Sydney removalists
           </a>
@@ -40,7 +42,8 @@ export default function RemovalistsServices() {
           <a href="#" className="text-blue-600 underline hover:text-blue-800">
             Perth removalists
           </a>{" "}
-          or any other city. We've got interstate removalists to help get you there.
+          or any other city. We've got interstate removalists to help get you
+          there.
         </>
       ),
     },
@@ -51,65 +54,65 @@ export default function RemovalistsServices() {
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* LEFT COLUMN — Large Image Grid */}
-        <div className="grid grid-cols-2 gap-4 md:gap-5">
+        {/* LEFT COLUMN — Image Grid */}
+        <div className="grid grid-cols-2 gap-3 md:gap-4 mt-14 lg:mt-20">
           {/* Left column of images */}
-          <div className="flex flex-col gap-4 md:gap-5">
+          <div className="flex flex-col gap-3 md:gap-4">
             <Image
               src="/images/HomeRemoval.png"
               alt="Home removal services"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
             <Image
               src="/images/interstateremoval.png"
               alt="Interstate removal services"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
             <Image
               src="/images/furnitureremoal.png"
               alt="Furniture removal services"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
           </div>
 
           {/* Right column of images */}
-          <div className="flex flex-col gap-4 md:gap-5">
+          <div className="flex flex-col gap-3 md:gap-4">
             <Image
               src="/images/removajob.png"
               alt="Professional moving team"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
             <Image
               src="/images/lady.png"
               alt="Customer service representative"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
             <Image
               src="/images/oldmanwithlaptop.png.jpg"
               alt="Moving consultation service"
               width={600}
               height={400}
-              className="rounded-2xl object-cover w-full h-[260px] md:h-[300px]"
+              className="rounded-2xl object-cover w-full h-[230px] md:h-[260px]"
             />
           </div>
         </div>
 
         {/* RIGHT COLUMN — Text Content */}
-        <div>
+        <div className="lg:pt-0">
           <div className="mb-8">
-             <span className="text-sm font-semibold text-orange-500 tracking-wide uppercase mb-2 block">
-               Moving Services
-             </span>
+            <span className="text-sm font-semibold text-orange-500 tracking-wide uppercase mb-2 block">
+              Moving Services
+            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 leading-tight font-['DM_Sans']">
               Removalists and moving services
             </h2>
@@ -117,15 +120,22 @@ export default function RemovalistsServices() {
 
           {services.map((service, idx) => (
             <div key={idx} className="mb-8">
-               <h3 className="text-xl font-bold text-gray-900 mb-3 font-['DM_Sans']">{service.title}</h3>
-              <p className="text-gray-700 text-base leading-relaxed">{service.description}</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 font-['DM_Sans']">
+                {service.title}
+              </h3>
+              <p className="text-gray-700 text-base leading-relaxed">
+                {service.description}
+              </p>
             </div>
           ))}
 
           <div>
-             <h3 className="text-xl font-bold text-gray-900 mb-3 font-['DM_Sans']">Removalists near me</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3 font-['DM_Sans']">
+              Removalists near me
+            </h3>
             <p className="text-gray-700 mb-4">
-              We have vetted local removalists nationwide. Choose your state to get started.
+              We have vetted local removalists nationwide. Choose your state to
+              get started.
             </p>
             <div className="flex flex-wrap items-center gap-2">
               {states.map((state, index) => (
@@ -136,7 +146,9 @@ export default function RemovalistsServices() {
                   >
                     {state}
                   </a>
-                  {index < states.length - 1 && <span className="text-gray-400">|</span>}
+                  {index < states.length - 1 && (
+                    <span className="text-gray-400">|</span>
+                  )}
                 </React.Fragment>
               ))}
             </div>

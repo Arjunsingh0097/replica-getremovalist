@@ -111,17 +111,11 @@ export default function Navbar() {
                 className={`w-4 h-4 ml-1 transition-transform duration-200 ${
                   isMoveTypesOpen ? "rotate-180" : ""
                 }`}
-                fill="none"
-                stroke="currentColor"
+                fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                />
+                <path d="M7 10l5 5 5-5z" />
               </svg>
             </button>
 
@@ -165,17 +159,11 @@ export default function Navbar() {
                 className={`w-4 h-4 ml-1 transition-transform duration-200 ${
                   isLocalOpen ? "rotate-180" : ""
                 }`}
-                fill="none"
-                stroke="currentColor"
+                fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                />
+                <path d="M7 10l5 5 5-5z" />
               </svg>
             </button>
 
@@ -219,17 +207,11 @@ export default function Navbar() {
                 className={`w-4 h-4 ml-1 transition-transform duration-200 ${
                   isInterstateOpen ? "rotate-180" : ""
                 }`}
-                fill="none"
-                stroke="currentColor"
+                fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                />
+                <path d="M7 10l5 5 5-5z" />
               </svg>
             </button>
 
@@ -260,7 +242,7 @@ export default function Navbar() {
         {/* Get Quotes Button */}
         <Link
           href="/job/new"
-          className="hidden sm:flex bg-red-50 border border-red-300 text-red-600 px-4 lg:px-6 py-2 rounded-lg font-medium hover:bg-red-100 transition-colors duration-200 items-center text-sm lg:text-base"
+          className="hidden sm:flex bg-transparent border border-red-300 text-red-600 px-4 lg:px-6 py-2 rounded-lg font-medium transition-colors duration-200 items-center text-sm lg:text-base"
         >
           Get Quotes
           <svg
@@ -332,17 +314,11 @@ export default function Navbar() {
                   className={`w-4 h-4 transition-transform duration-200 ${
                     isMoveTypesOpen ? "rotate-180" : ""
                   }`}
-                  fill="none"
-                  stroke="currentColor"
+                  fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
+                  <path d="M7 10l5 5 5-5z" />
                 </svg>
               </button>
               {isMoveTypesOpen && (
@@ -376,17 +352,11 @@ export default function Navbar() {
                   className={`w-4 h-4 transition-transform duration-200 ${
                     isLocalOpen ? "rotate-180" : ""
                   }`}
-                  fill="none"
-                  stroke="currentColor"
+                  fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
+                  <path d="M7 10l5 5 5-5z" />
                 </svg>
               </button>
               {isLocalOpen && (
@@ -420,17 +390,11 @@ export default function Navbar() {
                   className={`w-4 h-4 transition-transform duration-200 ${
                     isInterstateOpen ? "rotate-180" : ""
                   }`}
-                  fill="none"
-                  stroke="currentColor"
+                  fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
+                  <path d="M7 10l5 5 5-5z" />
                 </svg>
               </button>
               {isInterstateOpen && (
@@ -456,7 +420,7 @@ export default function Navbar() {
             <div className="pt-4 border-t border-gray-200">
               <Link
                 href="/job/new"
-                className="block w-full bg-red-50 border border-red-300 text-red-600 px-6 py-3 rounded-lg font-medium hover:bg-red-100 transition-colors duration-200 text-center"
+                className="block w-full bg-transparent border border-red-300 text-red-600 px-6 py-3 rounded-lg font-medium transition-colors duration-200 text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Get Quotes

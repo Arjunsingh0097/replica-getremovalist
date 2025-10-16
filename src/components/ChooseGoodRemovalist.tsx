@@ -71,7 +71,7 @@ export default function ChooseGoodRemovalist() {
         </div>
 
         {/* Main Content */}
-        <div className="bg-orange-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-12 shadow-sm">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 lg:p-14 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-12">
           {/* Left Side - Tips */}
           <div className="w-full lg:w-1/2">
             <div className="space-y-4 sm:space-y-5 mb-8 sm:mb-10">
