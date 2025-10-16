@@ -60,34 +60,25 @@ export default function Footer() {
   return (
     <footer className="bg-white text-black">
       {/* Top CTA Banner */}
-      <div className="bg-gradient-to-r from-red-500 to-orange-500 py-12 sm:py-16 text-center text-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3">
-            Save yourself the hassle,
+      <div className="bg-orange-500 py-16 sm:py-20 text-center text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 sm:mb-10">
+            Moving? GetRemovalist.
           </h2>
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-            find a mover the{" "}
-            <span className="underline underline-offset-4">easy way</span>.
-          </h3>
-          <a
-            href="/job/new"
-            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-red-500 transition-all duration-300 shadow-md text-sm sm:text-base"
-          >
-            Get Quotes
-            <svg
-              className="w-4 h-4 sm:w-5 sm:h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+            <a
+              href="/job/new"
+              className="inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 bg-white text-orange-500 font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg text-lg sm:text-xl min-w-[200px]"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </a>
+              Get quotes
+            </a>
+            <a
+              href="tel:1300168825"
+              className="inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 bg-white text-orange-500 font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg text-lg sm:text-xl min-w-[200px]"
+            >
+              Call: 1300 168 825
+            </a>
+          </div>
         </div>
       </div>
 
