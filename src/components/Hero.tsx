@@ -76,25 +76,37 @@ export default function Hero({
       <div className="relative -mt-6 sm:-mt-8 md:-mt-10 w-full flex justify-center px-4 sm:px-0">
         <div className="bg-white rounded-2xl sm:rounded-full shadow-xl flex flex-col sm:flex-row items-stretch sm:items-center max-w-4xl w-full sm:w-[90%] px-3 py-3 sm:px-6 sm:py-4 gap-3">
           {/* Full-width Dropdown */}
-          <select
-            className="flex-1 bg-gray-100 border border-gray-200 rounded-xl sm:rounded-full px-3 py-3 sm:px-4 text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-300 text-sm sm:text-base"
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Select type of move
-            </option>
-            <option>Moving Local / Same State</option>
-            <option>Moving Interstate</option>
-            <option>Moving Office</option>
-            <option>Moving a Single Item</option>
-            <option>Moving a Few Items</option>
-            <option>Moving Furniture Items</option>
-            <option>Moving a Piano</option>
-            <option>Moving a Pool Table</option>
-            <option>Gumtree / eBay Pickups</option>
-            <option>Moving Fragile Items</option>
-            <option>Rubbish Removal</option>
-          </select>
+          <div className="flex-1 relative">
+            <select
+              className="w-full bg-gray-100 border border-gray-200 rounded-xl sm:rounded-full px-3 py-3 sm:px-4 pr-8 sm:pr-10 text-gray-800 focus:outline-none focus:ring-2 focus:ring-orange-300 text-sm sm:text-base appearance-none"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Select type of move
+              </option>
+              <option>Moving Local / Same State</option>
+              <option>Moving Interstate</option>
+              <option>Moving Office</option>
+              <option>Moving a Single Item</option>
+              <option>Moving a Few Items</option>
+              <option>Moving Furniture Items</option>
+              <option>Moving a Piano</option>
+              <option>Moving a Pool Table</option>
+              <option>Gumtree / eBay Pickups</option>
+              <option>Moving Fragile Items</option>
+              <option>Rubbish Removal</option>
+            </select>
+            {/* Custom Dropdown Arrow */}
+            <div className="absolute right-3 sm:right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
+              <svg
+                className="w-4 h-4 text-gray-600"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7 10l5 5 5-5z" />
+              </svg>
+            </div>
+          </div>
 
           {/* Get Quote Button */}
           <Link
